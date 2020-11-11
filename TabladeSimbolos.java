@@ -19,8 +19,9 @@ public class TabladeSimbolos {
 		this.tipo = tipo;
 		this.alcance=alcance;
 		this.renglon=renglon;
+		
 	}
-
+	
 	public String getNombre() {
 		return nombre;
 	}
@@ -54,5 +55,4 @@ public class TabladeSimbolos {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
-
 }
